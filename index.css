@@ -1,0 +1,89 @@
+@font-face{
+	font-family:"Gotham";
+	src: url(fonts/Gotham-Book_0.ttf) format("truetype");
+}
+*{
+  z-index:0;
+}
+html{
+	background-image:url('Background.png');
+	background-repeat:no-repeat;
+	background-position:top-left;
+	font-family: "Gotham";
+}
+body{
+	min-width:1820px;
+}
+h1{
+	font-size:100px;
+	text-align:center;
+	padding: 10px;
+	padding-bottom:0px;
+	padding-top:0px;
+	margin: auto;
+	position:relative;
+	top:0px;
+	left:0px;
+	color:white;
+}
+.headers li{
+	font-size:60px;
+	font-weight:bold;
+	text-align:center;
+	padding:10px;
+	padding-top:10px;
+	color:white;
+	float:center;
+	display:inline;
+}
+#LD{
+	float:left;
+	margin:auto;
+	width:800px;
+}
+#PC{
+	float:right;
+	margin:auto;
+	width:800px;
+}
+.cover-ld{
+	float:left;
+	margin:auto;
+	width:800px;
+	height:550px;
+	
+}
+.cover-pc{
+	float:right;
+	margin:auto;
+	width:800px;
+	height:550px;
+	padding-right:50px;
+}
+.nav{
+	background-color:black;
+	font-size:40px;
+	font-weight:bold;
+	text-align:center;
+	padding:10px;
+	color:white;
+	width:50%;
+	margin-left:25%;
+	margin-right:25%;
+	position:fixed;
+	bottom:0px
+}
+.nav li{
+	display:inline;
+	margin:10px;
+}
+.nav li a{
+	padding-top:30px;
+	padding-left:10px;
+	padding-right:10px;
+	color:white;
+	text-decoration:none;
+}
+.nav li :hover{
+	background-color:rgba(150, 150, 150, 255);
+}
