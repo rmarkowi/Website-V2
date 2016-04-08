@@ -9,13 +9,11 @@ var main = function(){
 };
 
 var nextPhoto = function(){
-	var currentPhoto = $("cover-ld",".active-photo");
-	var nextPhoto = $("cover-ld",".active-photo").next();
-	
+	var currentPhoto = $(".cover-ld, .active-photo");
+	var nextPhoto = $(".cover-ld, .active-photo").next();
 	if(nextPhoto.length < 1){
 		nextPhoto = $('.cover-ld').first();
 	}
-	
 	currentPhoto.fadeOut(fadeTime).removeClass('active-photo');
 	nextPhoto.fadeIn(fadeTime).addClass('active-photo');
 	setTimeout(this.nextPhoto, photoHoldTime);
