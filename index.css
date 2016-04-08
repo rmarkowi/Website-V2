@@ -48,14 +48,13 @@ h1{
 }
 .cover-ld{
 	float:left;
-	margin:auto;
+	margin-left:5%;
 	width:800px;
 	height:550px;
-	
 }
 .cover-pc{
 	float:right;
-	margin:auto;
+	margin-right:5%;
 	width:800px;
 	height:550px;
 	padding-right:50px;
