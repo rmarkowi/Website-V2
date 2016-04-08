@@ -34,7 +34,6 @@ h1{
 	padding-top:10px;
 	color:white;
 	float:center;
-	display:inline;
 }
 #LD{
 	float:left;
@@ -51,6 +50,7 @@ h1{
 	margin-left:5%;
 	width:800px;
 	height:550px;
+	display:none;
 }
 .cover-pc{
 	float:right;
@@ -58,6 +58,10 @@ h1{
 	width:800px;
 	height:550px;
 	padding-right:50px;
+	display:none;
+}
+.active-photo{
+	display:inline;
 }
 .nav{
 	background-color:black;
