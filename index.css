@@ -38,12 +38,12 @@ h1{
 }
 #LD{
 	float:left;
-	margin:auto;
+	margin-left:5%;
 	width:800px;
 }
 #PC{
 	float:right;
-	margin:auto;
+	margin-right:5%;
 	width:800px;
 }
 .cover-ld{
